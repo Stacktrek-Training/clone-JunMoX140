@@ -13,7 +13,7 @@ function LandingPage() {
     <div>
         <NavBar/>
     </div>
-    <div className=" absolute flex-row my-52 ms-10"><Quote/></div>
+    <div className=" absolute flex-row my-48 ms-10"><Quote/></div>
     <div className="absolute flex-col -bottom-1 mb-96 ms-10"><SteamLogo/></div>
     <h6 className="absolute flex-col -bottom-1 mb-96 ms-10 text-white ps-14">DOWNLOAD ON STEAM</h6>
 
