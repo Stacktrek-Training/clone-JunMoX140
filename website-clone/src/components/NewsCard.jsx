@@ -26,13 +26,13 @@ const newsEntry = [
 
 function NewsCard (){
         return(
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 gap-x-10">
+        <div className="grid grid-cols-6 gap-10">
             {newsEntry.map(({date, title, image,content})=>(
                 <Card className='' key={date}>
                     <h6>{date}</h6>
                     <h3>{title}</h3>
                     <img className="" src={image} alt={title} />
-                    <p className=''>{content}</p>                
+                    <p className="">{content}</p>                
                 </Card>
             ))}
         </div>       
