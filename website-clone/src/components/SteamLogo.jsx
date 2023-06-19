@@ -1,5 +1,4 @@
 import { FaSteam } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa";
 
 
 function SteamLogo() {
